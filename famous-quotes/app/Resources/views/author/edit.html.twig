@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+{{ form_start(form_edit) }}
+    {{ form_widget(form_edit) }}
+    <input type="submit" value="edit" class="btn btn-default"/>
+{{ form_end (form_edit)}}
+
+{{ form_start(form_delect) }}
+    <input type="submit" value="delect" class="btn btn-danger"/>
+{{ form_end (form_delect)}}
+
+{% endblock %}
+
