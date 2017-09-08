@@ -11,7 +11,7 @@ use Doctrin\ORM\Mapping as ORM;
 *@ORM\Entity\(repositoryClass="AppBundle\Entity\QuoteRepository")
 */
 
-class Quote {
+class Author {
     /**
     *
     * @ORM\Column(name="id", type="integer")

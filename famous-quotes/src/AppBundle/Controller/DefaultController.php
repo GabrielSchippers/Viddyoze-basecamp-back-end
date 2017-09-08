@@ -1,9 +1,10 @@
 <?php
 
-namespace AppBundle\Controller
+namespace AppBundle\Controller;
 
+use AppBundle\Entity\Author;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use AppBundle\Entity\author;
+use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
