@@ -33,6 +33,6 @@ class AuthorType extends AbstractType
     * @return string
     */
     public function getName(){
-        return 'famous_Quote_Auther';
+        return 'famousQuote_Author';
     }
 }
