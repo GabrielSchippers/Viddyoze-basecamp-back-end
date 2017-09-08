@@ -1,0 +1,29 @@
+author:
+  path:     /
+  defaults: { _controller:AppBundle:author:author } 
+  methods:  [GET]
+
+author_create:
+  path:     /
+  defaults: { _controller:AppBundle:author:create }
+  methods:  [POST]
+
+author_new:
+  path:     /new
+  defaults: { _controller:AppBundle:author:new }
+  methods:  [GET]
+
+author_show:
+  path:     /{id}
+  defaults: { _controller:AppBundle:author:show }
+  methods:  [GET]
+  
+author_edit:
+  path:     /{id}/edit
+  defaults: { _controller:AppBundle:author:edit }
+  methods:  [GET]
+
+author_delete:
+  path:     /{id}
+  defaults: { _controller:AppBundle:author:delect }
+  methods:  [DELETE]
